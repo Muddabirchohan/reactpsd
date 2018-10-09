@@ -1,14 +1,1113 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.top-section{
+  background-image: url("./asset/background.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.top-section img{
+  padding-top: 50px;
+}
+
+.top-section h1{
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  float: right;
+  font-size: 45px;
+}
+
+.about-us{
+  padding-bottom: 100px;
+}
+
+.about-us h2{
+  text-align: center;
+  color: orange;
+  font-size: 40px;
+  font-family: Ubuntu;
+  padding-bottom: 100px;
+}
+
+.about-us p{
+  padding-bottom: 50px;
+
+}
+
+.about-us img{
+  margin-left: 30px;
+}
+
+
+.about-us-bg{
+  background-image: url("./asset/bg3for3.png");
+  background-repeat: no-repeat;
+}
+
+.about-us h4{
+padding-top: 50px
+}
+
+.about-us h5{
+  padding-bottom: 50px;
+  padding-right: 150px;
+  padding-left: 150px;
+  text-align: center;
+  font-size: 16px;
+  color: slategray;
+}
+
+
+.intuitive-design span{
+  color: orange;
+}
+
+.intuitive-design h1{
+  padding-top: 200px;
+  float: right;
+  text-align: center;
+  font-size: 40px;
+}
+
+.intuitive-design p{
+  padding-top: 20px;
+  float: right;
+  font-size: 15px;
+  color: darkgray;
+  padding-left: 250px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.intuitive-design-bg{
+  background-image: url("./asset/circle2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+.react-native-template {
+  padding-top: 200px;
+}
+
+
+.react-native-template span{
+  color: orange;
+}
+
+.react-native-template h1{
+  padding-top: 150px;
+  font-size: 40px;
+}
+
+.react-native-template p{
+  padding-right: 250px;
+  font-size: 15px;
+}
+
+.react-native-template img {
+  float: right;
+}
+
+.unlimited-products span{
+  font-size: 40px;
+  color: orange;
+}
+
+.unlimited-products{
+  padding-top: 100px;
+}
+
+.unlimited-products h1{
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.unlimited-products p{
+padding-left: 100px;
+}
+
+
+.payment-gateways span{
+  color: orange;
+}
+
+.payment-gateways h1{
+  font-size: 40px;
+  font-family: Ubuntu;
+  padding-top: 150px;
+}
+
+.payment-gateways p{
+  padding-right: 200px;
+}
+
+
+.payment-gateways img{
+float: right;
+}
+
+.payment-gateways{
+padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.package{
+  background: #FFFFFF;
+  border-top: 5px solid darkorange;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px -13px rgb(0, 0, 0);
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 569px;
+}
+
+.package .package-content h4{
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.package .package-content button{
+  align-content: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(255, 144, 23);
+  font-size: 20px;
+  width: 120px;
+  height: 45px;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+.package .package-content {
+  align-content: center;
+  align-items: center;
+}
+
+
+.package .package-content ul{
+  margin: 0;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  list-style: none;
+}
+.package .package-content ul li{
+  text-align: center;
+
+}
+.package .package-content p{
+  text-align: center;
+  color: darkorange;
+  font-size: 70px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+.packages{
+  background-image: url("./asset/pinkbg.png");
+  background-size: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.packages h1{
+  text-align: center;
+  font-family: "Arial Black";
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.screenshots{
+  background-image: url("./asset/screenshotbackgroun.png");
+  background-size: auto;
+}
+
+.screenshots img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.screenshots h1{
+ text-align: center;
+  color: orange;
+  font-size: 40px;
+}
+
+.demoapps{
+  background-image: url("./asset/bg2.png");
+  background-size: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.demoapps-col{
+  border-radius: 100px;
+  background-color: whitesmoke;
+  width: 280px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.demoapps img{
+  padding-left: 30px;
+}
+
+.demoapps span{
+  padding-left: 90px;
+  color: darkblue;
+}
+
+.demoapps p{
+  color: darkblue;
+  font-size: 20px;
+}
+
+.demoapps para{
+  padding-left: 20px;
+}
+
+.demoapps h1{
+
+text-align: center;
+ font-size: 40px;
+  color: snow;
+  padding-bottom: 20px;
+}
+
+.contactus h1{
+  color: darkblue;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.contactus form{
+  float: left;
+  padding-top: 100px;
+}
+.contactus img{
+  float: right;
+}
+
+.contactus button{
+  width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contactus FormControl{
+  border-radius: 20%;
+}
+
+.footer{
+  background-image: url("./asset/endbg.png");
+  background-size: auto;
+}
+
+.footer img{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright{
+  text-align: center;
+  color: darkblue;
+}
+
+
+.topbutton{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+@keyframes bounce {
+
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    5% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+        padding-bottom: 5px;
+    }
+    30% {
+        transform:translateY(-50%);
+    }
+
+    40% {
+        transform:translateY(0%);
+        padding-bottom: 6px;
+    }
+
+    50% {
+        transform:translateY(-30%);
+    }
+
+    70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+        transform:translateY(-15%);
+    }
+    90% {
+        transform:translateY(0%);
+        padding-bottom: 8px;
+    }
+    95% {
+        transform:translateY(-7%);
+    }
+    97% {
+        transform:translateY(0%);
+        padding-bottom: 9px;
+    }
+    99% {
+        transform:translateY(-3%);
+    }
+    100% {
+        transform:translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
+    }
+}
+
+
+.css3-notification {
+
+    -webkit-animation: bounce 1.5s ease-out;
+    -moz-animation: bounce 1000ms ease-out;
+    -o-animation: bounce 1000ms ease-out;
+    animation: bounce 1.5s ease-out;
+}
+
+
+@media (min-width:320px ) and (max-width: 767px) {
+
+
+  .top-section{
+    background-image: url("./asset/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+  }
+
+  .top-section img{
+    padding-top: 50px;
+    width: 300px;
+  }
+
+  .top-section h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 25px;
+  }
+
+  .about-us{
+    padding-bottom: 100px;
+  }
+
+  .about-us h2{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-family: Ubuntu;
+    padding-bottom: 100px;
+  }
+
+  .about-us p{
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .about-us img{
+   display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .about-us-bg{
+    background-image: url("./asset/bg3for3.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px ;
+  }
+
+  .about-us h4{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .about-us h5{
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: slategray;
+  }
+
+
+  .intuitive-design span{
+    color: orange;
+  }
+
+  .intuitive-design h1{
+    padding-top: 200px;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+
+  .intuitive-design p{
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+
+  .intuitive-design-bg{
+    background-image: url("./asset/circle2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .intuitive-design img{
+  width: 300px;
+  }
+
+
+
+  .react-native-template {
+    padding-top: 200px;
+  }
+
+
+  .react-native-template span{
+    color: orange;
+  }
+
+  .react-native-template h1{
+    padding-top: 150px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .react-native-template p{
+    padding-right: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .react-native-template img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .unlimited-products span{
+    font-size: 40px;
+    color: orange;
+  }
+
+  .unlimited-products{
+    padding-top: 100px;
+  }
+
+  .unlimited-products h1{
+    padding-left: 0px;
+    padding-top: 200px;
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  .unlimited-products p{
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .unlimited-products img{
+   width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .payment-gateways span{
+    color: orange;
+  }
+
+  .payment-gateways h1{
+    font-size: 40px;
+    font-family: Ubuntu;
+    padding-top: 150px;
+    text-align: center;
+  }
+
+  .payment-gateways p{
+    padding-right: 0px;
+    text-align: center;
+  }
+
+
+  .payment-gateways img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .payment-gateways{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .package{
+    background: #FFFFFF;
+    border-top: 5px solid darkorange;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px -13px rgb(0, 0, 0);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 569px;
+  }
+
+  .package .package-content h4{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .package .package-content button{
+    align-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 144, 23);
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    color: whitesmoke;
+    border-radius: 20px;
+  }
+
+  .package .package-content {
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .package .package-content ul{
+    margin: 0;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    list-style: none;
+  }
+  .package .package-content ul li{
+    text-align: center;
+
+  }
+  .package .package-content p{
+    text-align: center;
+    color: darkorange;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;;
+  }
+
+  .packages{
+    background-image: url("./asset/pinkbg.png");
+    background-size: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .packages h1{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+
+  .screenshots{
+    background-image: url("./asset/screenshotbackgroun.png");
+    background-size: auto;
+  }
+
+  .screenshots img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+  }
+
+  .screenshots h1{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+  }
+
+  .demoapps{
+    background-image: url("./asset/bg2.png");
+    background-size: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .demoapps-col{
+    border-radius: 100px;
+    background-color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .demoapps img{
+
+  }
+
+  .demoapps span{
+    padding-left: 90px;
+    color: darkblue;
+  }
+
+  .demoapps p{
+    color: darkblue;
+    font-size: 20px;
+  }
+
+  .demoapps para{
+    padding-left: 20px;
+  }
+
+  .demoapps h1{
+
+    text-align: center;
+    font-size: 40px;
+    color: snow;
+    padding-bottom: 20px;
+  }
+
+  .contactus h1{
+    color: darkblue;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .contactus form{
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .contactus img{
+   width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contactus button{
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contactus FormControl{
+    border-radius: 20%;
+  }
+
+  .footer{
+    background-image: url("./asset/endbg.png");
+    background-size: auto;
+  }
+
+  .footer img{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright{
+    text-align: center;
+    color: darkblue;
+  }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:768px ) and (max-width: 991px) {}
+
+
+
+@media (min-width:992px ) and (max-width: 1200px) {
+
+
+
+  .top-section{
+    background-image: url("./asset/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+  }
+
+  .top-section img{
+    padding-top: 50px;
+  }
+
+  .top-section h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    float: right;
+    font-size: 45px;
+  }
+
+  .about-us{
+    padding-bottom: 100px;
+  }
+
+  .about-us h2{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-family: Ubuntu;
+    padding-bottom: 100px;
+  }
+
+  .about-us p{
+    padding-bottom: 50px;
+
+  }
+
+  .about-us img{
+    margin-left: 30px;
+  }
+
+
+  .about-us-bg{
+    background-image: url("./asset/bg3for3.png");
+    background-repeat: no-repeat;
+  }
+
+  .about-us h4{
+    padding-top: 50px
+  }
+
+  .about-us h5{
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: slategray;
+  }
+
+
+  .intuitive-design span{
+    color: orange;
+  }
+
+  .intuitive-design h1{
+    padding-top: 200px;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .intuitive-design p{
+    padding-top: 20px;
+    float: right;
+    font-size: 15px;
+    color: darkgray;
+    padding-left: 250px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+
+  .intuitive-design-bg{
+    background-image: url("./asset/circle2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+
+  .react-native-template {
+    padding-top: 200px;
+  }
+
+
+  .react-native-template span{
+    color: orange;
+  }
+
+  .react-native-template h1{
+    padding-top: 150px;
+    font-size: 40px;
+  }
+
+  .react-native-template p{
+    padding-right: 250px;
+    font-size: 15px;
+  }
+
+  .react-native-template img {
+    float: right;
+  }
+
+  .unlimited-products span{
+    font-size: 40px;
+    color: orange;
+  }
+
+  .unlimited-products{
+    padding-top: 100px;
+  }
+
+  .unlimited-products h1{
+    padding-left: 100px;
+    padding-top: 200px;
+  }
+
+  .unlimited-products p{
+    padding-left: 100px;
+  }
+
+
+  .payment-gateways span{
+    color: orange;
+  }
+
+  .payment-gateways h1{
+    font-size: 40px;
+    font-family: Ubuntu;
+    padding-top: 150px;
+  }
+
+  .payment-gateways p{
+    padding-right: 200px;
+  }
+
+
+  .payment-gateways img{
+    float: right;
+  }
+
+  .payment-gateways{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .package{
+    background: #FFFFFF;
+    border-top: 5px solid darkorange;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px -13px rgb(0, 0, 0);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 569px;
+  }
+
+  .package .package-content h4{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .package .package-content button{
+    align-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 144, 23);
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    color: whitesmoke;
+    border-radius: 20px;
+  }
+
+  .package .package-content {
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .package .package-content ul{
+    margin: 0;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    list-style: none;
+  }
+  .package .package-content ul li{
+    text-align: center;
+
+  }
+  .package .package-content p{
+    text-align: center;
+    color: darkorange;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;;
+  }
+
+  .packages{
+    background-image: url("./asset/pinkbg.png");
+    background-size: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .packages h1{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+
+  .screenshots{
+    background-image: url("./asset/screenshotbackgroun.png");
+    background-size: auto;
+  }
+
+  .screenshots img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .screenshots h1{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+  }
+
+  .demoapps{
+    background-image: url("./asset/bg2.png");
+    background-size: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .demoapps-col{
+    border-radius: 100px;
+    background-color: whitesmoke;
+    width: 280px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .demoapps img{
+    padding-left: 30px;
+  }
+
+  .demoapps span{
+    padding-left: 90px;
+    color: darkblue;
+  }
+
+  .demoapps p{
+    color: darkblue;
+    font-size: 20px;
+  }
+
+  .demoapps para{
+    padding-left: 20px;
+  }
+
+  .demoapps h1{
+
+    text-align: center;
+    font-size: 40px;
+    color: snow;
+    padding-bottom: 20px;
+  }
+
+  .contactus h1{
+    color: darkblue;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .contactus form{
+    float: left;
+    padding-top: 100px;
+  }
+  .contactus img{
+    float: right;
+  }
+
+  .contactus button{
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contactus FormControl{
+    border-radius: 20%;
+  }
+
+  .footer{
+    background-image: url("./asset/endbg.png");
+    background-size: auto;
+  }
+
+  .footer img{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright{
+    text-align: center;
+    color: darkblue;
+  }
+
+
 }
